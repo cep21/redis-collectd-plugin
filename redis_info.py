@@ -143,6 +143,7 @@ def dispatch_value(info, key, type, type_instance=None):
     val.type = type
     val.type_instance = type_instance
     val.values = [value]
+    val.meta={'0': True}
     val.dispatch()
 
 
